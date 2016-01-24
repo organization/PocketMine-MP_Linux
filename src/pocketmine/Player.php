@@ -1444,6 +1444,10 @@ class Player extends Human implements CommandSender, InventoryHolder, ChunkLoade
 		}
 		return false;
 	}
+	
+	public function addEntityMotion($entityId, $x, $y, $z){
+
+	}
 
 	protected function updateMovement(){
 
